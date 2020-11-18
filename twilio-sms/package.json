@@ -1,0 +1,19 @@
+{
+  "name": "sendsmstwilio",
+  "version": "1.0.0",
+  "description": "AWS LAMBDA to send SMS using Twilio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "message"
+  ],
+  "author": "Rupjyoti Nath",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^3.49.4"
+  }
+}
