@@ -5,6 +5,7 @@ Get instant updates about GitHub activities via SMS.
 *Basically, configuring the GitHub webhook to send SMS.*
 
 ## Architecture
+The project is developed using **Serverless Architecture**.
 
 
 Refer below the architecture diagram of the project.
@@ -80,6 +81,14 @@ Any new activities now should trigger the webhook and hence you will receive the
 1. Avoid writing code in online editor directly. Need to have automatic deployment. Maybe use AWS SAM (Serverless Appllication Model).
 
 As a personal project & use case, without these consideration should be fine.
+
+## References
+* [Node.js Packages in Lambda](https://aws.amazon.com/blogs/compute/nodejs-packages-in-lambda/)
+(*Note that in the blog it uses aws-sdk as example but by default its already present in any Lambda function with credentials already loaded*)
+* [Publishing Messages in Amazon SNS using Node.js](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/sns-examples-publishing-messages.html)
+* [Using AWS Lambda with SNS](https://docs.aws.amazon.com/lambda/latest/dg/with-sns.html)
+* [GitHub Webhook Documentation](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/about-webhooks)
+* [Twilio SMS Node.js quickstart](https://www.twilio.com/docs/sms/quickstart/node)
 
 ## LICENSE
 
